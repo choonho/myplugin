@@ -33,7 +33,7 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/myplugin:latest
-            ${{ secrets.DOCKER_USERNAME }}/myplugin:${{ github.run_id }}
+            sunshout/myplugin:latest
+            sunshout/myplugin:${{ github.run_id }}
           build-args: |
             # Add any build arguments if needed
